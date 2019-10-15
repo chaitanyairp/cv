@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Details</title>
+</head>
+<body>
+    <h2>Enter your details here</h2>
+    <form action="mailto:chaitanyairp41@gmail.com" enctype="text/plain" method="post">
+        <label for="Fname">First Name*</label>
+        <input type="text" name="FName" id="FirstName"><br><br>
+        <label for="LName">Last Name*</label>
+        <input type="text" name="LName" id="LastName"><br><br>
+        <label for="Emailid">Work Email</label>
+        <input type="email" name="Email" id = "Emailid"><br><br>
+        <label for="role">Job Role</label>
+        <select name="JobRole" id="role">
+            <option value="Application Developer">Application Developer</option>
+            <option value="Tester">Application Tester</option>
+            <option value="Devops">Devops</option>
+            <option value="management">Manager</option>
+        </select>
+        <h4>Have prior experience?</h4>
+        <label for="radio1">Yes</label>
+        <input type="radio" id="radio1" name="exp">
+        <label for="radio2">No</label>
+        <input type="radio" id = "radio2" name = "exp"><br><br>
+        
+        <label for="date">Select date</label>
+        <input type="date" id="date"><br><br>
+       
+        <label for="file">Upload File</label>
+        <input type="file" id="file"><br><br>
+        <label for="range">Select Range</label>
+        <input type="range" id="range" min="0" max="1000" value="0" step="10"><br>
+        <input type="submit" value="Submit Details">
+
+    </form>
+</body>
+</html>
